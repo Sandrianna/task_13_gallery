@@ -20,7 +20,7 @@ body * {
 }
 
 .container {
-    max-width: 1256px;
+    width: 100%;
     margin: 0 auto;
     font-size: 11px;
     background-size: cover;
@@ -39,8 +39,10 @@ body * {
     color: white;
     text-transform: uppercase;
     font-style: italic;
-    margin-top: 20px;
     cursor: pointer;
+    margin: 20px auto; 
+    display: block; 
+    max-width: fit-content; 
 }
 
 .download:hover {
@@ -76,16 +78,12 @@ body * {
   }
 
   .images {
-    margin-left: 100px;
-    font-size: 11px;
-    background-size: cover;
-    height: 707px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     padding-top: 200px;
-    background-size: cover;
-    background-position: center center;
-    width: 100%;
-    min-height: 300px; /* Убедитесь, что контейнер видим */
+    background-size: cover; 
+    margin: 0 40px 0 40px;
     position: absolute;
-    left: 0;
-    top: 0;
   }

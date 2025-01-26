@@ -44,7 +44,7 @@ const fetchData = async () => {
           imgElement.src = imageUrl;
           imgElement.alt = "Random Dog";
           imgElement.style.width = "200px";
-          imgElement.style.margin = "10px";
+          imgElement.style.height = "200px";
           images.appendChild(imgElement);
           console.log("fourth");
       });
